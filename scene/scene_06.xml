@@ -29,34 +29,11 @@
 			<float name="specular" value="0.500000"/>
 		</bsdf>
 	</bsdf>
-	<bsdf type="diffuse" id="mat-custom_cloth" name="mat-custom_cloth">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
 	<bsdf type="diffuse" id="mat-itu_wood" name="mat-itu_wood">
 		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
 	</bsdf>
 	<bsdf type="diffuse" id="mat-itu_metal" name="mat-itu_metal">
 		<rgb value="0.612066 0.612066 0.612066" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-custom_plastic" name="mat-custom_plastic">
-		<rgb value="0.063815 0.063815 0.063815" name="reflectance"/>
-	</bsdf>
-	<bsdf type="twosided" id="mat-custom_leather" name="mat-custom_leather">
-		<bsdf type="principled" name="bsdf">
-			<texture type="bitmap" name="base_color">
-				<string name="filename" value="textures/White-Leather-Texture-Free-Download33.004.jpg"/>
-			</texture>
-			<float name="spec_tint" value="0.000000"/>
-			<float name="spec_trans" value="0.000000"/>
-			<float name="metallic" value="0.000000"/>
-			<float name="anisotropic" value="0.000000"/>
-			<float name="roughness" value="0.250000"/>
-			<float name="sheen" value="0.000000"/>
-			<float name="sheen_tint" value="0.500000"/>
-			<float name="clearcoat" value="0.000000"/>
-			<float name="clearcoat_gloss" value="0.000900"/>
-			<float name="specular" value="0.500000"/>
-		</bsdf>
 	</bsdf>
 
 <!-- Emitters -->
@@ -64,788 +41,788 @@
 
 <!-- Shapes -->
 
-	<shape type="ply" id="elm__5" name="elm__5">
+	<shape type="ply" id="elm__4" name="elm__4">
 		<string name="filename" value="meshes/glass_002-itu_glass.ply"/>
 		<ref id="mat-itu_glass" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__6" name="elm__6">
+	<shape type="ply" id="elm__5" name="elm__5">
 		<string name="filename" value="meshes/glass_002-itu_concrete.ply"/>
 		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__7" name="elm__7">
-		<string name="filename" value="meshes/glass_002-custom_cloth.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
+	<shape type="ply" id="elm__6" name="elm__6">
+		<string name="filename" value="meshes/glass_002-itu_concrete-001.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__8" name="elm__8">
+	<shape type="ply" id="elm__7" name="elm__7">
 		<string name="filename" value="meshes/glass_002-itu_wood.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__12" name="elm__12">
+	<shape type="ply" id="elm__9" name="elm__9">
 		<string name="filename" value="meshes/largetableset_01_001-itu_metal.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__13" name="elm__13">
+	<shape type="ply" id="elm__10" name="elm__10">
 		<string name="filename" value="meshes/largetableset_01_001-itu_wood.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__14" name="elm__14">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__15" name="elm__15">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-001.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__16" name="elm__16">
+	<shape type="ply" id="elm__11" name="elm__11">
 		<string name="filename" value="meshes/largetableset_01_001-itu_metal-001.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__17" name="elm__17">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-002.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__18" name="elm__18">
+	<shape type="ply" id="elm__12" name="elm__12">
 		<string name="filename" value="meshes/largetableset_01_001-itu_metal-002.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__19" name="elm__19">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-003.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__20" name="elm__20">
-		<string name="filename" value="meshes/largetableset_01_001-custom_cloth.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__21" name="elm__21">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-004.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__22" name="elm__22">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-005.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__23" name="elm__23">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-006.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__24" name="elm__24">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-007.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__25" name="elm__25">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-008.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__26" name="elm__26">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-009.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__27" name="elm__27">
+	<shape type="ply" id="elm__13" name="elm__13">
 		<string name="filename" value="meshes/largetableset_01_001-itu_metal-003.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__28" name="elm__28">
+	<shape type="ply" id="elm__14" name="elm__14">
 		<string name="filename" value="meshes/largetableset_01_001-itu_metal-004.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__29" name="elm__29">
-		<string name="filename" value="meshes/largetableset_01_001-itu_glass.ply"/>
-		<ref id="mat-itu_glass" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__30" name="elm__30">
+	<shape type="ply" id="elm__15" name="elm__15">
 		<string name="filename" value="meshes/largetableset_01_001-itu_metal-005.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__31" name="elm__31">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-010.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__32" name="elm__32">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-011.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__33" name="elm__33">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-012.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__34" name="elm__34">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-013.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__35" name="elm__35">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-014.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__36" name="elm__36">
+	<shape type="ply" id="elm__16" name="elm__16">
 		<string name="filename" value="meshes/largetableset_01_001-itu_metal-006.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__37" name="elm__37">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-015.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__38" name="elm__38">
+	<shape type="ply" id="elm__17" name="elm__17">
 		<string name="filename" value="meshes/largetableset_01_001-itu_metal-007.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__39" name="elm__39">
+	<shape type="ply" id="elm__18" name="elm__18">
 		<string name="filename" value="meshes/largetableset_01_001-itu_metal-008.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__40" name="elm__40">
+	<shape type="ply" id="elm__19" name="elm__19">
 		<string name="filename" value="meshes/largetableset_01_001-itu_metal-009.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__41" name="elm__41">
-		<string name="filename" value="meshes/largetableset_01_001-custom_cloth-001.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__42" name="elm__42">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-016.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__43" name="elm__43">
-		<string name="filename" value="meshes/largetableset_01_001-custom_cloth-002.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__44" name="elm__44">
-		<string name="filename" value="meshes/largetableset_01_001-custom_plastic-017.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__45" name="elm__45">
-		<string name="filename" value="meshes/largetableset_01_001-custom_leather.ply"/>
-		<ref id="mat-custom_leather" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__46" name="elm__46">
+	<shape type="ply" id="elm__20" name="elm__20">
 		<string name="filename" value="meshes/largetableset_01_001-itu_metal-010.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__47" name="elm__47">
+	<shape type="ply" id="elm__21" name="elm__21">
 		<string name="filename" value="meshes/largetableset_01_001-itu_metal-011.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__48" name="elm__48">
+	<shape type="ply" id="elm__22" name="elm__22">
 		<string name="filename" value="meshes/largetableset_01_001-itu_metal-012.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__49" name="elm__49">
+	<shape type="ply" id="elm__23" name="elm__23">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-013.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__24" name="elm__24">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-014.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__25" name="elm__25">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-015.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__26" name="elm__26">
+		<string name="filename" value="meshes/largetableset_01_001-itu_glass.ply"/>
+		<ref id="mat-itu_glass" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__27" name="elm__27">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-016.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__28" name="elm__28">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-017.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__29" name="elm__29">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-018.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__30" name="elm__30">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-019.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__31" name="elm__31">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-020.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__32" name="elm__32">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-021.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__33" name="elm__33">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-022.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__34" name="elm__34">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-023.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__35" name="elm__35">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-024.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__36" name="elm__36">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-025.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__37" name="elm__37">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-026.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__38" name="elm__38">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-027.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__39" name="elm__39">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-028.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__40" name="elm__40">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-029.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__41" name="elm__41">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-030.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__42" name="elm__42">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-031.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__43" name="elm__43">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-032.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__44" name="elm__44">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-033.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__45" name="elm__45">
+		<string name="filename" value="meshes/largetableset_01_001-itu_metal-034.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__46" name="elm__46">
 		<string name="filename" value="meshes/cabinet_03_001.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__50" name="elm__50">
+	<shape type="ply" id="elm__47" name="elm__47">
 		<string name="filename" value="meshes/cabinet_03_002.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__51" name="elm__51">
+	<shape type="ply" id="elm__48" name="elm__48">
 		<string name="filename" value="meshes/cabinet_03_004.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__52" name="elm__52">
+	<shape type="ply" id="elm__49" name="elm__49">
 		<string name="filename" value="meshes/cabinet_03_005.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__53" name="elm__53">
+	<shape type="ply" id="elm__50" name="elm__50">
 		<string name="filename" value="meshes/cabinet_03_003.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__54" name="elm__54">
+	<shape type="ply" id="elm__51" name="elm__51">
 		<string name="filename" value="meshes/cabinet_03_006.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__55" name="elm__55">
+	<shape type="ply" id="elm__52" name="elm__52">
 		<string name="filename" value="meshes/cabinet_03_007.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__56" name="elm__56">
+	<shape type="ply" id="elm__53" name="elm__53">
 		<string name="filename" value="meshes/largetableset_01_002-itu_metal.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__57" name="elm__57">
+	<shape type="ply" id="elm__54" name="elm__54">
 		<string name="filename" value="meshes/largetableset_01_002-itu_wood.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__58" name="elm__58">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__59" name="elm__59">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-001.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__60" name="elm__60">
+	<shape type="ply" id="elm__55" name="elm__55">
 		<string name="filename" value="meshes/largetableset_01_002-itu_metal-001.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__61" name="elm__61">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-002.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__62" name="elm__62">
+	<shape type="ply" id="elm__56" name="elm__56">
 		<string name="filename" value="meshes/largetableset_01_002-itu_metal-002.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__63" name="elm__63">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-003.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__64" name="elm__64">
-		<string name="filename" value="meshes/largetableset_01_002-custom_cloth.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__65" name="elm__65">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-004.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__66" name="elm__66">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-005.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__67" name="elm__67">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-006.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__68" name="elm__68">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-007.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__69" name="elm__69">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-008.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__70" name="elm__70">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-009.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__71" name="elm__71">
+	<shape type="ply" id="elm__57" name="elm__57">
 		<string name="filename" value="meshes/largetableset_01_002-itu_metal-003.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__72" name="elm__72">
+	<shape type="ply" id="elm__58" name="elm__58">
 		<string name="filename" value="meshes/largetableset_01_002-itu_metal-004.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__73" name="elm__73">
-		<string name="filename" value="meshes/largetableset_01_002-itu_glass.ply"/>
-		<ref id="mat-itu_glass" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__74" name="elm__74">
+	<shape type="ply" id="elm__59" name="elm__59">
 		<string name="filename" value="meshes/largetableset_01_002-itu_metal-005.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__75" name="elm__75">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-010.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__76" name="elm__76">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-011.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__77" name="elm__77">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-012.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__78" name="elm__78">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-013.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__79" name="elm__79">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-014.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__80" name="elm__80">
+	<shape type="ply" id="elm__60" name="elm__60">
 		<string name="filename" value="meshes/largetableset_01_002-itu_metal-006.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__81" name="elm__81">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-015.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__82" name="elm__82">
+	<shape type="ply" id="elm__61" name="elm__61">
 		<string name="filename" value="meshes/largetableset_01_002-itu_metal-007.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__83" name="elm__83">
+	<shape type="ply" id="elm__62" name="elm__62">
 		<string name="filename" value="meshes/largetableset_01_002-itu_metal-008.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__84" name="elm__84">
+	<shape type="ply" id="elm__63" name="elm__63">
 		<string name="filename" value="meshes/largetableset_01_002-itu_metal-009.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__85" name="elm__85">
-		<string name="filename" value="meshes/largetableset_01_002-custom_cloth-001.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__86" name="elm__86">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-016.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__87" name="elm__87">
-		<string name="filename" value="meshes/largetableset_01_002-custom_cloth-002.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__88" name="elm__88">
-		<string name="filename" value="meshes/largetableset_01_002-custom_plastic-017.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__89" name="elm__89">
-		<string name="filename" value="meshes/largetableset_01_002-custom_leather.ply"/>
-		<ref id="mat-custom_leather" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__90" name="elm__90">
+	<shape type="ply" id="elm__64" name="elm__64">
 		<string name="filename" value="meshes/largetableset_01_002-itu_metal-010.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__91" name="elm__91">
+	<shape type="ply" id="elm__65" name="elm__65">
 		<string name="filename" value="meshes/largetableset_01_002-itu_metal-011.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__92" name="elm__92">
+	<shape type="ply" id="elm__66" name="elm__66">
 		<string name="filename" value="meshes/largetableset_01_002-itu_metal-012.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__93" name="elm__93">
+	<shape type="ply" id="elm__67" name="elm__67">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-013.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__68" name="elm__68">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-014.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__69" name="elm__69">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-015.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__70" name="elm__70">
+		<string name="filename" value="meshes/largetableset_01_002-itu_glass.ply"/>
+		<ref id="mat-itu_glass" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__71" name="elm__71">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-016.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__72" name="elm__72">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-017.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__73" name="elm__73">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-018.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__74" name="elm__74">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-019.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__75" name="elm__75">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-020.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__76" name="elm__76">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-021.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__77" name="elm__77">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-022.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__78" name="elm__78">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-023.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__79" name="elm__79">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-024.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__80" name="elm__80">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-025.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__81" name="elm__81">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-026.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__82" name="elm__82">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-027.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__83" name="elm__83">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-028.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__84" name="elm__84">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-029.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__85" name="elm__85">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-030.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__86" name="elm__86">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-031.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__87" name="elm__87">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-032.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__88" name="elm__88">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-033.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__89" name="elm__89">
+		<string name="filename" value="meshes/largetableset_01_002-itu_metal-034.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__90" name="elm__90">
 		<string name="filename" value="meshes/largetableset_01_003-itu_metal.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__94" name="elm__94">
+	<shape type="ply" id="elm__91" name="elm__91">
 		<string name="filename" value="meshes/largetableset_01_003-itu_wood.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__95" name="elm__95">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__96" name="elm__96">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-001.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__97" name="elm__97">
+	<shape type="ply" id="elm__92" name="elm__92">
 		<string name="filename" value="meshes/largetableset_01_003-itu_metal-001.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__98" name="elm__98">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-002.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__99" name="elm__99">
+	<shape type="ply" id="elm__93" name="elm__93">
 		<string name="filename" value="meshes/largetableset_01_003-itu_metal-002.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__100" name="elm__100">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-003.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__101" name="elm__101">
-		<string name="filename" value="meshes/largetableset_01_003-custom_cloth.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__102" name="elm__102">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-004.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__103" name="elm__103">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-005.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__104" name="elm__104">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-006.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__105" name="elm__105">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-007.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__106" name="elm__106">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-008.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__107" name="elm__107">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-009.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__108" name="elm__108">
+	<shape type="ply" id="elm__94" name="elm__94">
 		<string name="filename" value="meshes/largetableset_01_003-itu_metal-003.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__109" name="elm__109">
+	<shape type="ply" id="elm__95" name="elm__95">
 		<string name="filename" value="meshes/largetableset_01_003-itu_metal-004.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__110" name="elm__110">
-		<string name="filename" value="meshes/largetableset_01_003-itu_glass.ply"/>
-		<ref id="mat-itu_glass" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__111" name="elm__111">
+	<shape type="ply" id="elm__96" name="elm__96">
 		<string name="filename" value="meshes/largetableset_01_003-itu_metal-005.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__112" name="elm__112">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-010.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__113" name="elm__113">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-011.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__114" name="elm__114">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-012.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__115" name="elm__115">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-013.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__116" name="elm__116">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-014.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__117" name="elm__117">
+	<shape type="ply" id="elm__97" name="elm__97">
 		<string name="filename" value="meshes/largetableset_01_003-itu_metal-006.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__118" name="elm__118">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-015.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__119" name="elm__119">
+	<shape type="ply" id="elm__98" name="elm__98">
 		<string name="filename" value="meshes/largetableset_01_003-itu_metal-007.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__120" name="elm__120">
+	<shape type="ply" id="elm__99" name="elm__99">
 		<string name="filename" value="meshes/largetableset_01_003-itu_metal-008.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__121" name="elm__121">
+	<shape type="ply" id="elm__100" name="elm__100">
 		<string name="filename" value="meshes/largetableset_01_003-itu_metal-009.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__122" name="elm__122">
-		<string name="filename" value="meshes/largetableset_01_003-custom_cloth-001.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__123" name="elm__123">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-016.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__124" name="elm__124">
-		<string name="filename" value="meshes/largetableset_01_003-custom_cloth-002.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__125" name="elm__125">
-		<string name="filename" value="meshes/largetableset_01_003-custom_plastic-017.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__126" name="elm__126">
-		<string name="filename" value="meshes/largetableset_01_003-custom_leather.ply"/>
-		<ref id="mat-custom_leather" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__127" name="elm__127">
+	<shape type="ply" id="elm__101" name="elm__101">
 		<string name="filename" value="meshes/largetableset_01_003-itu_metal-010.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__128" name="elm__128">
+	<shape type="ply" id="elm__102" name="elm__102">
 		<string name="filename" value="meshes/largetableset_01_003-itu_metal-011.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__129" name="elm__129">
+	<shape type="ply" id="elm__103" name="elm__103">
 		<string name="filename" value="meshes/largetableset_01_003-itu_metal-012.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__130" name="elm__130">
+	<shape type="ply" id="elm__104" name="elm__104">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-013.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__105" name="elm__105">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-014.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__106" name="elm__106">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-015.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__107" name="elm__107">
+		<string name="filename" value="meshes/largetableset_01_003-itu_glass.ply"/>
+		<ref id="mat-itu_glass" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__108" name="elm__108">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-016.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__109" name="elm__109">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-017.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__110" name="elm__110">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-018.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__111" name="elm__111">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-019.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__112" name="elm__112">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-020.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__113" name="elm__113">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-021.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__114" name="elm__114">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-022.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__115" name="elm__115">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-023.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__116" name="elm__116">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-024.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__117" name="elm__117">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-025.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__118" name="elm__118">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-026.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__119" name="elm__119">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-027.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__120" name="elm__120">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-028.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__121" name="elm__121">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-029.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__122" name="elm__122">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-030.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__123" name="elm__123">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-031.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__124" name="elm__124">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-032.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__125" name="elm__125">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-033.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__126" name="elm__126">
+		<string name="filename" value="meshes/largetableset_01_003-itu_metal-034.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__127" name="elm__127">
 		<string name="filename" value="meshes/largetableset_01_004-itu_metal.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__131" name="elm__131">
+	<shape type="ply" id="elm__128" name="elm__128">
 		<string name="filename" value="meshes/largetableset_01_004-itu_wood.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__132" name="elm__132">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__133" name="elm__133">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-001.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__134" name="elm__134">
+	<shape type="ply" id="elm__129" name="elm__129">
 		<string name="filename" value="meshes/largetableset_01_004-itu_metal-001.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__135" name="elm__135">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-002.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__136" name="elm__136">
+	<shape type="ply" id="elm__130" name="elm__130">
 		<string name="filename" value="meshes/largetableset_01_004-itu_metal-002.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__137" name="elm__137">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-003.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__138" name="elm__138">
-		<string name="filename" value="meshes/largetableset_01_004-custom_cloth.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__139" name="elm__139">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-004.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__140" name="elm__140">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-005.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__141" name="elm__141">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-006.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__142" name="elm__142">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-007.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__143" name="elm__143">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-008.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__144" name="elm__144">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-009.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__145" name="elm__145">
+	<shape type="ply" id="elm__131" name="elm__131">
 		<string name="filename" value="meshes/largetableset_01_004-itu_metal-003.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__146" name="elm__146">
+	<shape type="ply" id="elm__132" name="elm__132">
 		<string name="filename" value="meshes/largetableset_01_004-itu_metal-004.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__147" name="elm__147">
-		<string name="filename" value="meshes/largetableset_01_004-itu_glass.ply"/>
-		<ref id="mat-itu_glass" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__148" name="elm__148">
+	<shape type="ply" id="elm__133" name="elm__133">
 		<string name="filename" value="meshes/largetableset_01_004-itu_metal-005.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__149" name="elm__149">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-010.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__150" name="elm__150">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-011.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__151" name="elm__151">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-012.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__152" name="elm__152">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-013.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__153" name="elm__153">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-014.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__154" name="elm__154">
+	<shape type="ply" id="elm__134" name="elm__134">
 		<string name="filename" value="meshes/largetableset_01_004-itu_metal-006.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__155" name="elm__155">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-015.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__156" name="elm__156">
+	<shape type="ply" id="elm__135" name="elm__135">
 		<string name="filename" value="meshes/largetableset_01_004-itu_metal-007.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__157" name="elm__157">
+	<shape type="ply" id="elm__136" name="elm__136">
 		<string name="filename" value="meshes/largetableset_01_004-itu_metal-008.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__158" name="elm__158">
+	<shape type="ply" id="elm__137" name="elm__137">
 		<string name="filename" value="meshes/largetableset_01_004-itu_metal-009.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__159" name="elm__159">
-		<string name="filename" value="meshes/largetableset_01_004-custom_cloth-001.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__160" name="elm__160">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-016.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__161" name="elm__161">
-		<string name="filename" value="meshes/largetableset_01_004-custom_cloth-002.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__162" name="elm__162">
-		<string name="filename" value="meshes/largetableset_01_004-custom_plastic-017.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__163" name="elm__163">
-		<string name="filename" value="meshes/largetableset_01_004-custom_leather.ply"/>
-		<ref id="mat-custom_leather" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__164" name="elm__164">
+	<shape type="ply" id="elm__138" name="elm__138">
 		<string name="filename" value="meshes/largetableset_01_004-itu_metal-010.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__165" name="elm__165">
+	<shape type="ply" id="elm__139" name="elm__139">
 		<string name="filename" value="meshes/largetableset_01_004-itu_metal-011.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__166" name="elm__166">
+	<shape type="ply" id="elm__140" name="elm__140">
 		<string name="filename" value="meshes/largetableset_01_004-itu_metal-012.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__167" name="elm__167">
+	<shape type="ply" id="elm__141" name="elm__141">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-013.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__142" name="elm__142">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-014.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__143" name="elm__143">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-015.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__144" name="elm__144">
+		<string name="filename" value="meshes/largetableset_01_004-itu_glass.ply"/>
+		<ref id="mat-itu_glass" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__145" name="elm__145">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-016.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__146" name="elm__146">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-017.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__147" name="elm__147">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-018.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__148" name="elm__148">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-019.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__149" name="elm__149">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-020.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__150" name="elm__150">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-021.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__151" name="elm__151">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-022.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__152" name="elm__152">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-023.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__153" name="elm__153">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-024.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__154" name="elm__154">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-025.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__155" name="elm__155">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-026.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__156" name="elm__156">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-027.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__157" name="elm__157">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-028.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__158" name="elm__158">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-029.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__159" name="elm__159">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-030.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__160" name="elm__160">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-031.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__161" name="elm__161">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-032.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__162" name="elm__162">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-033.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__163" name="elm__163">
+		<string name="filename" value="meshes/largetableset_01_004-itu_metal-034.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__164" name="elm__164">
 		<string name="filename" value="meshes/largetableset_01_005-itu_metal.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__168" name="elm__168">
+	<shape type="ply" id="elm__165" name="elm__165">
 		<string name="filename" value="meshes/largetableset_01_005-itu_wood.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__169" name="elm__169">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__170" name="elm__170">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-001.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__171" name="elm__171">
+	<shape type="ply" id="elm__166" name="elm__166">
 		<string name="filename" value="meshes/largetableset_01_005-itu_metal-001.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__172" name="elm__172">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-002.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__173" name="elm__173">
+	<shape type="ply" id="elm__167" name="elm__167">
 		<string name="filename" value="meshes/largetableset_01_005-itu_metal-002.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__174" name="elm__174">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-003.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__175" name="elm__175">
-		<string name="filename" value="meshes/largetableset_01_005-custom_cloth.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__176" name="elm__176">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-004.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__177" name="elm__177">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-005.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__178" name="elm__178">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-006.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__179" name="elm__179">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-007.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__180" name="elm__180">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-008.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__181" name="elm__181">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-009.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__182" name="elm__182">
+	<shape type="ply" id="elm__168" name="elm__168">
 		<string name="filename" value="meshes/largetableset_01_005-itu_metal-003.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__183" name="elm__183">
+	<shape type="ply" id="elm__169" name="elm__169">
 		<string name="filename" value="meshes/largetableset_01_005-itu_metal-004.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__184" name="elm__184">
-		<string name="filename" value="meshes/largetableset_01_005-itu_glass.ply"/>
-		<ref id="mat-itu_glass" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__185" name="elm__185">
+	<shape type="ply" id="elm__170" name="elm__170">
 		<string name="filename" value="meshes/largetableset_01_005-itu_metal-005.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__186" name="elm__186">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-010.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__187" name="elm__187">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-011.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__188" name="elm__188">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-012.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__189" name="elm__189">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-013.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__190" name="elm__190">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-014.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__191" name="elm__191">
+	<shape type="ply" id="elm__171" name="elm__171">
 		<string name="filename" value="meshes/largetableset_01_005-itu_metal-006.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__192" name="elm__192">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-015.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__193" name="elm__193">
+	<shape type="ply" id="elm__172" name="elm__172">
 		<string name="filename" value="meshes/largetableset_01_005-itu_metal-007.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__194" name="elm__194">
+	<shape type="ply" id="elm__173" name="elm__173">
 		<string name="filename" value="meshes/largetableset_01_005-itu_metal-008.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__195" name="elm__195">
+	<shape type="ply" id="elm__174" name="elm__174">
 		<string name="filename" value="meshes/largetableset_01_005-itu_metal-009.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__196" name="elm__196">
-		<string name="filename" value="meshes/largetableset_01_005-custom_cloth-001.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__197" name="elm__197">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-016.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__198" name="elm__198">
-		<string name="filename" value="meshes/largetableset_01_005-custom_cloth-002.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__199" name="elm__199">
-		<string name="filename" value="meshes/largetableset_01_005-custom_plastic-017.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__200" name="elm__200">
-		<string name="filename" value="meshes/largetableset_01_005-custom_leather.ply"/>
-		<ref id="mat-custom_leather" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__201" name="elm__201">
+	<shape type="ply" id="elm__175" name="elm__175">
 		<string name="filename" value="meshes/largetableset_01_005-itu_metal-010.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__202" name="elm__202">
+	<shape type="ply" id="elm__176" name="elm__176">
 		<string name="filename" value="meshes/largetableset_01_005-itu_metal-011.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__203" name="elm__203">
+	<shape type="ply" id="elm__177" name="elm__177">
 		<string name="filename" value="meshes/largetableset_01_005-itu_metal-012.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__178" name="elm__178">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-013.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__179" name="elm__179">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-014.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__180" name="elm__180">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-015.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__181" name="elm__181">
+		<string name="filename" value="meshes/largetableset_01_005-itu_glass.ply"/>
+		<ref id="mat-itu_glass" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__182" name="elm__182">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-016.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__183" name="elm__183">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-017.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__184" name="elm__184">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-018.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__185" name="elm__185">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-019.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__186" name="elm__186">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-020.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__187" name="elm__187">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-021.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__188" name="elm__188">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-022.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__189" name="elm__189">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-023.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__190" name="elm__190">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-024.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__191" name="elm__191">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-025.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__192" name="elm__192">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-026.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__193" name="elm__193">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-027.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__194" name="elm__194">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-028.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__195" name="elm__195">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-029.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__196" name="elm__196">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-030.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__197" name="elm__197">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-031.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__198" name="elm__198">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-032.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__199" name="elm__199">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-033.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__200" name="elm__200">
+		<string name="filename" value="meshes/largetableset_01_005-itu_metal-034.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
 

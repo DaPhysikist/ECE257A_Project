@@ -11,7 +11,7 @@
 
 <!-- Materials -->
 
-	<bsdf type="twosided" id="mat-itu_concrete.002" name="mat-itu_concrete.002">
+	<bsdf type="twosided" id="mat-itu_concrete" name="mat-itu_concrete">
 		<bsdf type="principled" name="bsdf">
 			<rgb value="0.800000 0.800000 0.800000" name="base_color"/>
 			<float name="spec_tint" value="0.000000"/>
@@ -26,160 +26,10 @@
 			<float name="specular" value="0.500000"/>
 		</bsdf>
 	</bsdf>
-	<bsdf type="twosided" id="mat-itu_concrete.001" name="mat-itu_concrete.001">
-		<bsdf type="principled" name="bsdf">
-			<rgb value="0.800000 0.800000 0.800000" name="base_color"/>
-			<float name="spec_tint" value="0.000000"/>
-			<float name="spec_trans" value="0.000000"/>
-			<float name="metallic" value="0.000000"/>
-			<float name="anisotropic" value="0.000000"/>
-			<float name="roughness" value="0.250000"/>
-			<float name="sheen" value="0.000000"/>
-			<float name="sheen_tint" value="0.500000"/>
-			<float name="clearcoat" value="0.000000"/>
-			<float name="clearcoat_gloss" value="0.000900"/>
-			<float name="specular" value="0.500000"/>
-		</bsdf>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_wood.005" name="mat-itu_wood.005">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="twosided" id="mat-itu_concrete.003" name="mat-itu_concrete.003">
-		<bsdf type="principled" name="bsdf">
-			<rgb value="0.800000 0.800000 0.800000" name="base_color"/>
-			<float name="spec_tint" value="0.000000"/>
-			<float name="spec_trans" value="0.000000"/>
-			<float name="metallic" value="0.000000"/>
-			<float name="anisotropic" value="0.000000"/>
-			<float name="roughness" value="0.250000"/>
-			<float name="sheen" value="0.000000"/>
-			<float name="sheen_tint" value="0.500000"/>
-			<float name="clearcoat" value="0.000000"/>
-			<float name="clearcoat_gloss" value="0.000900"/>
-			<float name="specular" value="0.500000"/>
-		</bsdf>
-	</bsdf>
-	<bsdf type="twosided" id="mat-itu_concrete.004" name="mat-itu_concrete.004">
-		<bsdf type="principled" name="bsdf">
-			<rgb value="0.800000 0.800000 0.800000" name="base_color"/>
-			<float name="spec_tint" value="0.000000"/>
-			<float name="spec_trans" value="0.000000"/>
-			<float name="metallic" value="0.000000"/>
-			<float name="anisotropic" value="0.000000"/>
-			<float name="roughness" value="0.250000"/>
-			<float name="sheen" value="0.000000"/>
-			<float name="sheen_tint" value="0.500000"/>
-			<float name="clearcoat" value="0.000000"/>
-			<float name="clearcoat_gloss" value="0.000900"/>
-			<float name="specular" value="0.500000"/>
-		</bsdf>
-	</bsdf>
-	<bsdf type="twosided" id="mat-itu_concrete.005" name="mat-itu_concrete.005">
-		<bsdf type="principled" name="bsdf">
-			<rgb value="0.800000 0.800000 0.800000" name="base_color"/>
-			<float name="spec_tint" value="0.000000"/>
-			<float name="spec_trans" value="0.000000"/>
-			<float name="metallic" value="0.000000"/>
-			<float name="anisotropic" value="0.000000"/>
-			<float name="roughness" value="0.250000"/>
-			<float name="sheen" value="0.000000"/>
-			<float name="sheen_tint" value="0.500000"/>
-			<float name="clearcoat" value="0.000000"/>
-			<float name="clearcoat_gloss" value="0.000900"/>
-			<float name="specular" value="0.500000"/>
-		</bsdf>
-	</bsdf>
-	<bsdf type="twosided" id="mat-itu_concrete.006" name="mat-itu_concrete.006">
-		<bsdf type="principled" name="bsdf">
-			<rgb value="0.800000 0.800000 0.800000" name="base_color"/>
-			<float name="spec_tint" value="0.000000"/>
-			<float name="spec_trans" value="0.000000"/>
-			<float name="metallic" value="0.000000"/>
-			<float name="anisotropic" value="0.000000"/>
-			<float name="roughness" value="0.250000"/>
-			<float name="sheen" value="0.000000"/>
-			<float name="sheen_tint" value="0.500000"/>
-			<float name="clearcoat" value="0.000000"/>
-			<float name="clearcoat_gloss" value="0.000900"/>
-			<float name="specular" value="0.500000"/>
-		</bsdf>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_wood.007" name="mat-itu_wood.007">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_wood.008" name="mat-itu_wood.008">
+	<bsdf type="diffuse" id="mat-itu_wood" name="mat-itu_wood">
 		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
 	</bsdf>
 	<bsdf type="diffuse" id="mat-itu_metal" name="mat-itu_metal">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.002" name="mat-itu_metal.002">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.004" name="mat-itu_metal.004">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.005" name="mat-itu_metal.005">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.006" name="mat-itu_metal.006">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.007" name="mat-itu_metal.007">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.010" name="mat-itu_metal.010">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.011" name="mat-itu_metal.011">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.008" name="mat-itu_metal.008">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.009" name="mat-itu_metal.009">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.012" name="mat-itu_metal.012">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.013" name="mat-itu_metal.013">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.014" name="mat-itu_metal.014">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.015" name="mat-itu_metal.015">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.016" name="mat-itu_metal.016">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.017" name="mat-itu_metal.017">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.018" name="mat-itu_metal.018">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.019" name="mat-itu_metal.019">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.024" name="mat-itu_metal.024">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.025" name="mat-itu_metal.025">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.026" name="mat-itu_metal.026">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.027" name="mat-itu_metal.027">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.028" name="mat-itu_metal.028">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_metal.029" name="mat-itu_metal.029">
 		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
 	</bsdf>
 
@@ -191,190 +41,190 @@
 	<shape type="ply" id="elm__2" name="elm__2">
 		<string name="filename" value="meshes/Plane.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_concrete.002" name="bsdf"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
 	<shape type="ply" id="elm__3" name="elm__3">
 		<string name="filename" value="meshes/Plane_003.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_concrete.002" name="bsdf"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__4" name="elm__4">
+		<string name="filename" value="meshes/glass_001.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
 	<shape type="ply" id="elm__5" name="elm__5">
-		<string name="filename" value="meshes/glass_001.ply"/>
-		<ref id="mat-itu_concrete.001" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__6" name="elm__6">
 		<string name="filename" value="meshes/Plane_002.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_concrete.002" name="bsdf"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__7" name="elm__7">
+	<shape type="ply" id="elm__6" name="elm__6">
 		<string name="filename" value="meshes/Plane_001.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_concrete.002" name="bsdf"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__8" name="elm__8">
+	<shape type="ply" id="elm__7" name="elm__7">
 		<string name="filename" value="meshes/Plane_004.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_concrete.002" name="bsdf"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__9" name="elm__9">
+	<shape type="ply" id="elm__8" name="elm__8">
 		<string name="filename" value="meshes/Plane_005.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_concrete.002" name="bsdf"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__10" name="elm__10">
+	<shape type="ply" id="elm__9" name="elm__9">
 		<string name="filename" value="meshes/Plane_006.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_concrete.002" name="bsdf"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__10" name="elm__10">
+		<string name="filename" value="meshes/glass.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
 	<shape type="ply" id="elm__11" name="elm__11">
-		<string name="filename" value="meshes/glass_002.ply"/>
-		<ref id="mat-itu_concrete.001" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__12" name="elm__12">
 		<string name="filename" value="meshes/Plane_007.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_concrete.002" name="bsdf"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__14" name="elm__14">
+	<shape type="ply" id="elm__13" name="elm__13">
 		<string name="filename" value="meshes/Plane_008.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_wood.005" name="bsdf"/>
+		<ref id="mat-itu_wood" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__14" name="elm__14">
+		<string name="filename" value="meshes/glass_003.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
 	<shape type="ply" id="elm__15" name="elm__15">
-		<string name="filename" value="meshes/glass_003.ply"/>
-		<ref id="mat-itu_concrete.001" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__16" name="elm__16">
 		<string name="filename" value="meshes/Plane_009.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_concrete.001" name="bsdf"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__18" name="elm__18">
+	<shape type="ply" id="elm__16" name="elm__16">
 		<string name="filename" value="meshes/Plane_010.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_concrete.003" name="bsdf"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__20" name="elm__20">
+	<shape type="ply" id="elm__17" name="elm__17">
 		<string name="filename" value="meshes/Plane_011.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_concrete.004" name="bsdf"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__22" name="elm__22">
+	<shape type="ply" id="elm__18" name="elm__18">
 		<string name="filename" value="meshes/Plane_012.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_concrete.005" name="bsdf"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__24" name="elm__24">
+	<shape type="ply" id="elm__19" name="elm__19">
 		<string name="filename" value="meshes/Plane_013.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_concrete.006" name="bsdf"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__26" name="elm__26">
+	<shape type="ply" id="elm__20" name="elm__20">
 		<string name="filename" value="meshes/Plane_014.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_wood.007" name="bsdf"/>
+		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__28" name="elm__28">
+	<shape type="ply" id="elm__21" name="elm__21">
 		<string name="filename" value="meshes/Plane_015.ply"/>
 		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_wood.008" name="bsdf"/>
+		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__31" name="elm__31">
+	<shape type="ply" id="elm__23" name="elm__23">
 		<string name="filename" value="meshes/metal_shelf_01-itu_metal.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
+	<shape type="ply" id="elm__24" name="elm__24">
+		<string name="filename" value="meshes/metal_shelf_01-itu_metal-001.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__25" name="elm__25">
+		<string name="filename" value="meshes/metal_shelf_01_001-itu_metal.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__26" name="elm__26">
+		<string name="filename" value="meshes/metal_shelf_01_001-itu_metal-001.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__27" name="elm__27">
+		<string name="filename" value="meshes/metal_shelf_01_002-itu_metal.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__28" name="elm__28">
+		<string name="filename" value="meshes/metal_shelf_01_002-itu_metal-001.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__29" name="elm__29">
+		<string name="filename" value="meshes/metal_shelf_01_004-itu_metal.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__30" name="elm__30">
+		<string name="filename" value="meshes/metal_shelf_01_004-itu_metal-001.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__31" name="elm__31">
+		<string name="filename" value="meshes/metal_shelf_01_004-itu_metal-002.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
 	<shape type="ply" id="elm__32" name="elm__32">
-		<string name="filename" value="meshes/metal_shelf_01-itu_metal.002.ply"/>
-		<ref id="mat-itu_metal.002" name="bsdf"/>
+		<string name="filename" value="meshes/metal_shelf_01_004-itu_metal-003.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__33" name="elm__33">
+		<string name="filename" value="meshes/metal_shelf_01_003-itu_metal.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__34" name="elm__34">
+		<string name="filename" value="meshes/metal_shelf_01_003-itu_metal-001.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
 	<shape type="ply" id="elm__35" name="elm__35">
-		<string name="filename" value="meshes/metal_shelf_01_001-itu_metal.004.ply"/>
-		<ref id="mat-itu_metal.004" name="bsdf"/>
+		<string name="filename" value="meshes/metal_shelf_01_003-itu_metal-002.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
 	<shape type="ply" id="elm__36" name="elm__36">
-		<string name="filename" value="meshes/metal_shelf_01_001-itu_metal.005.ply"/>
-		<ref id="mat-itu_metal.005" name="bsdf"/>
+		<string name="filename" value="meshes/metal_shelf_01_003-itu_metal-003.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__37" name="elm__37">
+		<string name="filename" value="meshes/metal_shelf_01_005-itu_metal.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__38" name="elm__38">
+		<string name="filename" value="meshes/metal_shelf_01_005-itu_metal-001.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
 	<shape type="ply" id="elm__39" name="elm__39">
-		<string name="filename" value="meshes/metal_shelf_01_002-itu_metal.006.ply"/>
-		<ref id="mat-itu_metal.006" name="bsdf"/>
+		<string name="filename" value="meshes/metal_shelf_01_005-itu_metal-002.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
 	<shape type="ply" id="elm__40" name="elm__40">
-		<string name="filename" value="meshes/metal_shelf_01_002-itu_metal.007.ply"/>
-		<ref id="mat-itu_metal.007" name="bsdf"/>
+		<string name="filename" value="meshes/metal_shelf_01_005-itu_metal-003.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__41" name="elm__41">
+		<string name="filename" value="meshes/metal_shelf_01_006-itu_metal.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__42" name="elm__42">
+		<string name="filename" value="meshes/metal_shelf_01_006-itu_metal-001.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__43" name="elm__43">
+		<string name="filename" value="meshes/metal_shelf_01_007-itu_metal.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="elm__44" name="elm__44">
+		<string name="filename" value="meshes/metal_shelf_01_007-itu_metal-001.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
 	<shape type="ply" id="elm__45" name="elm__45">
-		<string name="filename" value="meshes/metal_shelf_01_004-itu_metal.010.ply"/>
-		<ref id="mat-itu_metal.010" name="bsdf"/>
+		<string name="filename" value="meshes/metal_shelf_01_008-itu_metal.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
 	<shape type="ply" id="elm__46" name="elm__46">
-		<string name="filename" value="meshes/metal_shelf_01_004-itu_metal.011.ply"/>
-		<ref id="mat-itu_metal.011" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__47" name="elm__47">
-		<string name="filename" value="meshes/metal_shelf_01_004-itu_metal.008.ply"/>
-		<ref id="mat-itu_metal.008" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__48" name="elm__48">
-		<string name="filename" value="meshes/metal_shelf_01_004-itu_metal.009.ply"/>
-		<ref id="mat-itu_metal.009" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__53" name="elm__53">
-		<string name="filename" value="meshes/metal_shelf_01_003-itu_metal.012.ply"/>
-		<ref id="mat-itu_metal.012" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__54" name="elm__54">
-		<string name="filename" value="meshes/metal_shelf_01_003-itu_metal.013.ply"/>
-		<ref id="mat-itu_metal.013" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__55" name="elm__55">
-		<string name="filename" value="meshes/metal_shelf_01_003-itu_metal.014.ply"/>
-		<ref id="mat-itu_metal.014" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__56" name="elm__56">
-		<string name="filename" value="meshes/metal_shelf_01_003-itu_metal.015.ply"/>
-		<ref id="mat-itu_metal.015" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__61" name="elm__61">
-		<string name="filename" value="meshes/metal_shelf_01_005-itu_metal.016.ply"/>
-		<ref id="mat-itu_metal.016" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__62" name="elm__62">
-		<string name="filename" value="meshes/metal_shelf_01_005-itu_metal.017.ply"/>
-		<ref id="mat-itu_metal.017" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__63" name="elm__63">
-		<string name="filename" value="meshes/metal_shelf_01_005-itu_metal.018.ply"/>
-		<ref id="mat-itu_metal.018" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__64" name="elm__64">
-		<string name="filename" value="meshes/metal_shelf_01_005-itu_metal.019.ply"/>
-		<ref id="mat-itu_metal.019" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__67" name="elm__67">
-		<string name="filename" value="meshes/metal_shelf_01_006-itu_metal.024.ply"/>
-		<ref id="mat-itu_metal.024" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__68" name="elm__68">
-		<string name="filename" value="meshes/metal_shelf_01_006-itu_metal.025.ply"/>
-		<ref id="mat-itu_metal.025" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__71" name="elm__71">
-		<string name="filename" value="meshes/metal_shelf_01_007-itu_metal.026.ply"/>
-		<ref id="mat-itu_metal.026" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__72" name="elm__72">
-		<string name="filename" value="meshes/metal_shelf_01_007-itu_metal.027.ply"/>
-		<ref id="mat-itu_metal.027" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__75" name="elm__75">
-		<string name="filename" value="meshes/metal_shelf_01_008-itu_metal.028.ply"/>
-		<ref id="mat-itu_metal.028" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__76" name="elm__76">
-		<string name="filename" value="meshes/metal_shelf_01_008-itu_metal.029.ply"/>
-		<ref id="mat-itu_metal.029" name="bsdf"/>
+		<string name="filename" value="meshes/metal_shelf_01_008-itu_metal-001.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
 
 <!-- Volumes -->

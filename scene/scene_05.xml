@@ -29,16 +29,10 @@
 	<bsdf type="diffuse" id="mat-itu_glass" name="mat-itu_glass">
 		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
 	</bsdf>
-	<bsdf type="diffuse" id="mat-custom_cloth" name="mat-custom_cloth">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
-	<bsdf type="diffuse" id="mat-itu_wood" name="mat-itu_wood">
-		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
-	</bsdf>
 	<bsdf type="diffuse" id="mat-itu_metal" name="mat-itu_metal">
 		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
 	</bsdf>
-	<bsdf type="diffuse" id="mat-custom_plastic" name="mat-custom_plastic">
+	<bsdf type="diffuse" id="mat-itu_wood" name="mat-itu_wood">
 		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
 	</bsdf>
 
@@ -68,7 +62,7 @@
 	</shape>
 	<shape type="ply" id="elm__8" name="elm__8">
 		<string name="filename" value="meshes/curtain_01_001.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
 	<shape type="ply" id="elm__9" name="elm__9">
 		<string name="filename" value="meshes/Plane_005.ply"/>
@@ -106,15 +100,15 @@
 	</shape>
 	<shape type="ply" id="elm__17" name="elm__17">
 		<string name="filename" value="meshes/curtain_01_002.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
 	<shape type="ply" id="elm__18" name="elm__18">
 		<string name="filename" value="meshes/curtain_01_003.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
 	<shape type="ply" id="elm__19" name="elm__19">
 		<string name="filename" value="meshes/curtain_01_004.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
 	<shape type="ply" id="elm__20" name="elm__20">
 		<string name="filename" value="meshes/table_05.ply"/>
@@ -122,50 +116,50 @@
 	</shape>
 	<shape type="ply" id="elm__21" name="elm__21">
 		<string name="filename" value="meshes/chair_01.ply"/>
-		<ref id="mat-custom_cloth" name="bsdf"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__23" name="elm__23">
+	<shape type="ply" id="elm__22" name="elm__22">
 		<string name="filename" value="meshes/chair_01_001.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__24" name="elm__24">
+	<shape type="ply" id="elm__23" name="elm__23">
 		<string name="filename" value="meshes/lamp_03_001.ply"/>
 		<ref id="mat-itu_glass" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__25" name="elm__25">
+	<shape type="ply" id="elm__24" name="elm__24">
 		<string name="filename" value="meshes/lamp_03_002.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__26" name="elm__26">
+	<shape type="ply" id="elm__25" name="elm__25">
 		<string name="filename" value="meshes/tv_01_001.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__27" name="elm__27">
+	<shape type="ply" id="elm__26" name="elm__26">
 		<string name="filename" value="meshes/cabinet_05.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__28" name="elm__28">
+	<shape type="ply" id="elm__27" name="elm__27">
 		<string name="filename" value="meshes/tv_01_002.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_glass" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__30" name="elm__30">
+	<shape type="ply" id="elm__28" name="elm__28">
 		<string name="filename" value="meshes/tv_01_003.ply"/>
-		<ref id="mat-custom_plastic" name="bsdf"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__31" name="elm__31">
+	<shape type="ply" id="elm__29" name="elm__29">
 		<string name="filename" value="meshes/cabinet_03_002.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__32" name="elm__32">
+	<shape type="ply" id="elm__30" name="elm__30">
 		<string name="filename" value="meshes/cabinet_05_001.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__33" name="elm__33">
+	<shape type="ply" id="elm__31" name="elm__31">
 		<string name="filename" value="meshes/cabinet_05_002.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__34" name="elm__34">
+	<shape type="ply" id="elm__32" name="elm__32">
 		<string name="filename" value="meshes/cabinet_05_003.ply"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
