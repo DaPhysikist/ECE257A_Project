@@ -2,5 +2,5 @@
 .DS_Store
 __pycache__/
 .vscode/
-.blend
-.blend1
+*.blend
+*.blend1
